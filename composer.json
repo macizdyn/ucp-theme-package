@@ -1,0 +1,26 @@
+{
+    "name": "macizdyn/ucp-theme",
+	"description": "UCP Laravel 5 Themes",
+    "keywords": ["themes", "views", "assets", "blade", "laravel-5", "package"],
+    "license": "MIT",
+    "homepage": "https://github.com/macizdyn/ucp-theme",
+    "authors": [
+        {
+            "name": "Ruslan Voroshchuk",
+            "email": "ruslan@owlookit.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.1.4",
+        "illuminate/support": "5.0.*|5.1.*"
+    },
+    "suggest": {
+        "orchestra/asset" : "Intergrates with orchestra/asset. Allows using '@css' and '@js' in blade files"
+    },
+    "autoload": {
+        "psr-4" : {
+            "macizdyn\\ucpTheme\\" : "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
